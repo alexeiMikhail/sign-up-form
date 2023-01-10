@@ -1,0 +1,39 @@
+html, body, .main-image-container {
+  height: 100vh;
+  width: 100vw;
+  margin:0;
+  overflow: hidden;
+}
+
+#main-image {
+  height:100vh;
+  width:auto;
+  object-fit:cover;
+  object-position: center;
+  transform: translate(-20%, 0);
+}
+
+.root {
+  display: flex;
+}
+
+.main-image-container {
+  position: relative;
+}
+
+.title-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(80, 80, 80, .7);
+  font-weight: bolder;
+  font-family: sans-serif;
+  font-size: 5rem;
+  height: 5rem;
+  color:rgb(227, 237, 247);
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
